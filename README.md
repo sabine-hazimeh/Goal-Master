@@ -5,15 +5,15 @@
 <!-- project philosophy -->
 <img src="./image/title2.svg"/>
 
-> A web app that combines facial expression recognition to detect user emotions with personalized financial advice, tracking emotional responses before and after applying the advice to enhance the advisory system for better financial decision-making.
+> A web app designed to help users set and achieve their personal goals. The platform combines goal setting, personalized planning, emotional tracking, and consultant interactions to offer a holistic approach to personal development.
 >
-> Smart Budget aims to simplify financial management by offering easy-to-use tools for personalized financial advice and tracking your emotions before and after applying the advice. We believe in improving your financial decisions and overall well-being by making the process straightforward and effective.
+> GoalMaster empowers users to take control of their personal growth by integrating goal setting with emotional well-being. Through a combination of personalized plans, expert consultant interactions, and advanced emotional tracking, users receive tailored guidance and insights.
 
 ### User Stories
 
-- As a user, I want to receive personalized financial advice, so I can make informed decisions based on my specific needs.
-- As a user, I want to track my emotional responses before and after applying financial advice, so I can see how it impacts my well-being.
-- As a user, I want to review and adjust my financial advice over time, so I can continuously improve my financial decisions and outcomes.
+- As a user, I want to specify my goals, such as learning new skills, or financial management and the app should generate a customized plan to achieve these goals.
+- As a user, I want to connect with consultants for personalized advice and guidance.
+- As a user, I want to express my emotions using facial expression recognition technology, so that my emotions are recorded.
 
 <br><br>
 
