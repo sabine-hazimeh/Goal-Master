@@ -20,22 +20,25 @@
 <!-- Tech stack -->
 <img src="./image/title3.svg"/>
 
-### Coffee Express is built using the following technologies:
+### Goal Master is built using the following technologies:
 
-- This project uses the [Flutter app development framework](https://flutter.dev/). Flutter is a cross-platform hybrid app development platform which allows us to use a single codebase for apps on mobile, desktop, and the web.
-- For persistent storage (database), the app uses the [Hive](https://hivedb.dev/) package which allows the app to create a custom storage schema and save it to a local database.
-- To send local push notifications, the app uses the [flutter_local_notifications](https://pub.dev/packages/flutter_local_notifications) package which supports Android, iOS, and macOS.
-  - 🚨 Currently, notifications aren't working on macOS. This is a known issue that we are working to resolve!
-- The app uses the font ["Work Sans"](https://fonts.google.com/specimen/Work+Sans) as its main font, and the design of the app adheres to the material design guidelines.
+- The frontend is built using [React](https://legacy.reactjs.org/docs/getting-started.html), providing a dynamic and responsive user experience. React allows the app to render efficiently and scale across devices.
+- [Laravel](https://laravel.com/docs/11.x/) serves as the backend framework, handling API requests, authentication, and server-side logic. It ensures the application is secure, scalable, and maintainable.
+- A relational database [MySQL](https://dev.mysql.com/doc/) is used to store structured data. MySQL's efficient querying and indexing ensure the app performs well with large datasets.
+- ML models are integrated to predict both health and education goals. The models analyze user inputs (such as health metrics or learning preferences) and suggest personalized recommendations.
+- [OpenAI](https://platform.openai.com/docs/introduction) is used to predict financial goals. Based on user inputs like income, savings, and target date, the system generates savings plans to help users meet their financial objectives.
+- [Pusher](https://pusher.com/docs/) is used to implement real-time messaging, enabling live chat functionality between users. The system supports instantaneous communication for a seamless user experience.
 
 <br><br>
 
 <!-- UI UX -->
 <img src="./image/title4.svg"/>
 
-> We designed Coffee Express using wireframes and mockups, iterating on the design until we reached the ideal layout for easy navigation and a seamless user experience.
+> We designed Goal Master by creating detailed wireframes and mockups to visualize the structure and user flow. Throughout the design process, we focused on ensuring easy navigation and an intuitive user experience. After several iterations, incorporating feedback and improvements, we arrived at the final design that offers seamless interaction and effortless goal management for users.
 
-- Project Figma design [figma](https://www.figma.com/file/LsuOx5Wnh5YTGSEtrgvz4l/Purrfect-Pals?type=design&node-id=257%3A79&mode=design&t=adzbABt5hbb91ucZ-1)
+Our goal was to craft a clean, functional interface that helps users focus on achieving their goals without unnecessary distractions.
+
+- Project Figma design [figma](https://www.figma.com/design/1KpW6Me6gTjkifuRnBAuV9/Final-Project?node-id=0-1&node-type=CANVAS&t=vPxHLN63RMYazSpM-0)
 
 ### Mockups
 
@@ -105,31 +108,62 @@
 <!-- How to run -->
 <img src="./image/title10.svg"/>
 
-> To set up Coffee Express locally, follow these steps:
+> To set up Goal Master locally, follow these steps:
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
 
 - npm
   ```sh
   npm install npm@latest -g
   ```
+- npm
+  ```sh
+  php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+  php composer-setup.php
+  php -r "unlink('composer-setup.php');"
+  ```
+- you can download PHP from [here](https://www.php.net/downloads)
+- you can download MySQL from [here](https://dev.mysql.com/downloads/installer/)
+
 
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
 
-1. Get a free API Key at [example](https://example.com)
-2. Clone the repo
-   git clone [github](https://github.com/your_username_/Project-Name.git)
-3. Install NPM packages
+1. Clone the repo
+   git clone [github](https://github.com/sabine-hazimeh/goal-master)
+2. Install NPM packages
    ```sh
    npm install
    ```
-4. Enter your API in `config.js`
+3. Get an OpenAI Key 
+4. Create new pusher app and add it's credentials to laravel .env file
    ```js
-   const API_KEY = "ENTER YOUR API";
+   PUSHER_APP_ID="enter your id"
+   PUSHER_APP_KEY="enter your key"
+   PUSHER_APP_SECRET="enter your secret"
+   PUSHER_APP_CLUSTER="enter your cluster"
+   BROADCAST_DRIVER=pusher
    ```
+5. Enter OpenAI key and pusher credentials in react .env file
+   ```js
+    REACT_APP_OPENAI_API_KEY = "ENTER YOUR API";
+    REACT_APP_PUSHER_KEY = "ENTER YOUR KEY";
+    REACT_APP_PUSHER_CLUSTER = "ENTER YOUR CLUSTER";
+   ```
+6. - Install Tymon JWT package via Composer:
+     ```sh
+     composer require tymon/jwt-auth
+     ```
+   - Publish the configuration file:
+     ```sh
+     php artisan vendor:publish --provider="Tymon\JWTAuth\Providers\LaravelServiceProvider"
+     ```
+   - Generate a JWT secret key:
+     ``` sh
+     php artisan jwt:secret
+     ```
+     
 
-Now, you should be able to run Coffee Express locally and explore its features.
+
+Now, you should be able to run Goal Master locally and explore its features.
