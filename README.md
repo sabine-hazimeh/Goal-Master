@@ -7,11 +7,11 @@
 
 > A web app designed to help users set and achieve their personal goals. The platform combines goal setting, personalized planning, emotional tracking, and consultant interactions to offer a holistic approach to personal development.
 >
-> GoalMaster empowers users to take control of their personal growth by integrating goal setting with emotional well-being. Through a combination of personalized plans, expert consultant interactions, and advanced emotional tracking, users receive tailored guidance and insights.
+> GoalMaster empowers users to take control of their personal growth by integrating goal setting with emotional well-being.
 
 ### User Stories
 
-- As a user, I want to specify my goals, such as learning new skills, or financial management and the app should generate a customized plan to achieve these goals.
+- As a user, I want to specify my goals, such as learning new skills, or financial management and the app should help me in achieving it.
 - As a user, I want to connect with consultants for personalized advice and guidance.
 - As a user, I want to express my emotions using facial expression recognition technology, so that my emotions are recorded.
 
@@ -42,9 +42,9 @@ Our goal was to craft a clean, functional interface that helps users focus on ac
 
 ### Mockups
 
-| Home screen                             | Menu Screen                           | Order Screen                          |
-| --------------------------------------- | ------------------------------------- | ------------------------------------- |
-| ![Landing](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) |
+| Home screen                             | About Us Screen                           | 
+| --------------------------------------- | ------------------------------------- | 
+| ![Home](image/home.png) | ![About](image/about.png) | ![fsdaf](./readme/demo/1440x1024.png) |
 
 <br><br>
 
@@ -60,21 +60,13 @@ Our goal was to craft a clean, functional interface that helps users focus on ac
 <!-- Implementation -->
 <img src="./image/title6.svg"/>
 
-### User Screens (Mobile)
+### User Screens (Web)
 
-| Login screen                              | Register screen                         | Landing screen                          | Loading screen                          |
-| ----------------------------------------- | --------------------------------------- | --------------------------------------- | --------------------------------------- |
-| ![Landing](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) |
-| Home screen                               | Menu Screen                             | Order Screen                            | Checkout Screen                         |
-| ![Landing](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) |
-
-### Admin Screens (Web)
-
-| Login screen                            | Register screen                       | Landing screen                        |
-| --------------------------------------- | ------------------------------------- | ------------------------------------- |
-| ![Landing](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) |
-| Home screen                             | Menu Screen                           | Order Screen                          |
-| ![Landing](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) |
+| Login screen                            | Profile screen                       | 
+| --------------------------------------- | ------------------------------------- | 
+| ![Login](image/Login.png) | ![profile](image/profile.png) | ![fsdaf](./readme/demo/1440x1024.png) |
+| Live Chat                             | Education Goal                           | Order Screen                          |
+| ![Live Chat](image/LiveChat.gif) | ![Education Goal](image/EducationGoal.gif) | ![fsdaf](./readme/demo/1440x1024.png) |
 
 <br><br>
 
