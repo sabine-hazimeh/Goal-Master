@@ -4,3 +4,6 @@
 [submodule "backend"]
 	path = backend
 	url = https://github.com/sabine-hazimeh/goal-master-backend
+[submodule "ML"]
+	path = ML
+	url = https://github.com/sabine-hazimeh/goal-master-ml
