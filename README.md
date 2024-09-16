@@ -53,7 +53,7 @@ Our goal was to craft a clean, functional interface that helps users focus on ac
 
 ### Architecting Data Excellence: Innovative Database Design Strategies:
 
-- Insert ER Diagram here
+- ![ERDiagram](image/ER-Diagram.png)
 
 <br><br>
 
@@ -73,9 +73,9 @@ Our goal was to craft a clean, functional interface that helps users focus on ac
 <!-- Prompt Engineering -->
 <img src="./image/title7.svg"/>
 
-### Mastering AI Interaction: Unveiling the Power of Prompt Engineering:
+### Mastering Personalized Learning: Harnessing Machine Learning for Tailored Course and Exercise Recommendations
 
-- This project uses advanced prompt engineering techniques to optimize the interaction with natural language processing models. By skillfully crafting input instructions, we tailor the behavior of the models to achieve precise and efficient language understanding and generation for various tasks and preferences.
+- This project utilizes machine learning techniques to personalize learning experiences by recommending courses that align with the user's educational goals and unique conditions. By analyzing the user’s health status, the system also predicts and suggests appropriate exercises. This approach enables precise and efficient recommendations, optimizing both the user’s learning progress and physical well-being.
 
 <br><br>
 
@@ -91,9 +91,9 @@ Our goal was to craft a clean, functional interface that helps users focus on ac
 <!-- Unit Testing -->
 <img src="./image/title9.svg"/>
 
-### Precision in Development: Harnessing the Power of Unit Testing:
+### Accuracy in Development: Leveraging Unit Testing's Power:
 
-- This project employs rigorous unit testing methodologies to ensure the reliability and accuracy of code components. By systematically evaluating individual units of the software, we guarantee a robust foundation, identifying and addressing potential issues early in the development process.
+- Precise unit testing techniques are applied in this project to guarantee the quality and dependability of code components. We ensure a solid foundation by carefully examining each software unit, spotting and fixing any problems early on in the development cycle.
 
 <br><br>
 
@@ -123,7 +123,9 @@ Our goal was to craft a clean, functional interface that helps users focus on ac
 
 
 1. Clone the repo
-   git clone [github](https://github.com/sabine-hazimeh/goal-master)
+   ```sh
+   git clone https://github.com/sabine-hazimeh/goal-master
+   ```
 2. Install NPM packages
    ```sh
    npm install
