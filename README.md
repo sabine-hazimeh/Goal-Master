@@ -82,9 +82,9 @@ Our goal was to craft a clean, functional interface that helps users focus on ac
 <!-- AWS Deployment -->
 <img src="./image/title8.svg"/>
 
-### Efficient AI Deployment: Unleashing the Potential with AWS Integration:
+### Efficient Full-Stack Deployment: Unleashing Potential with Cloud Hosting
 
-- This project leverages AWS deployment strategies to seamlessly integrate and deploy natural language processing models. With a focus on scalability, reliability, and performance, we ensure that AI applications powered by these models deliver robust and responsive solutions for diverse use cases.
+- This project utilizes cloud hosting solutions to deploy both the Laravel backend and the database infrastructure. By focusing on scalability, reliability, and seamless integration, we ensure that the application performs optimally while managing data efficiently. This setup supports diverse use cases, ensuring robust, real-time interactions and services, powered by a reliable backend and database combination.
 
 <br><br>
 
