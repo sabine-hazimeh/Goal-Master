@@ -121,43 +121,30 @@ Our goal was to craft a clean, functional interface that helps users focus on ac
 
 ### Installation
 
+Clone the repo
 
-1. Clone the repo
-   ```sh
-   git clone https://github.com/sabine-hazimeh/goal-master
-   ```
-2. Install NPM packages
+```sh
+git clone https://github.com/sabine-hazimeh/goal-master
+```
+
+For Frontend:
+
+1. Install NPM packages
    ```sh
    npm install
    ```
-3. Get an OpenAI Key 
-4. Create new pusher app and add it's credentials to laravel .env file
+2. Create an .env file:
    ```js
-   PUSHER_APP_ID="enter your id"
-   PUSHER_APP_KEY="enter your key"
-   PUSHER_APP_SECRET="enter your secret"
-   PUSHER_APP_CLUSTER="enter your cluster"
-   BROADCAST_DRIVER=pusher
+   REACT_APP_OPENAI_API_KEY = "your-OpenAI-key-here"
+   REACT_APP_PUSHER_KEY =acef436b4b534dafb513
+   REACT_APP_PUSHER_CLUSTER=eu
    ```
-5. Enter OpenAI key and pusher credentials in react .env file
-   ```js
-    REACT_APP_OPENAI_API_KEY = "ENTER YOUR API";
-    REACT_APP_PUSHER_KEY = "ENTER YOUR KEY";
-    REACT_APP_PUSHER_CLUSTER = "ENTER YOUR CLUSTER";
+3. Start the React development server:
+   ```sh
+   npm start
    ```
-6. - Install Tymon JWT package via Composer:
-     ```sh
-     composer require tymon/jwt-auth
-     ```
-   - Publish the configuration file:
-     ```sh
-     php artisan vendor:publish --provider="Tymon\JWTAuth\Providers\LaravelServiceProvider"
-     ```
-   - Generate a JWT secret key:
-     ``` sh
-     php artisan jwt:secret
-     ```
-     
+   For Backend:
+4. Backend is already hosted:  
+   The Laravel backend is already hosted and available [here](http://ec2-13-38-78-41.eu-west-3.compute.amazonaws.com)
 
-
-Now, you should be able to run Goal Master locally and explore its features.
+Now, you should be able to run Goal Master and explore its features.
