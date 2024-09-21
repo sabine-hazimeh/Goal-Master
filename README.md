@@ -65,8 +65,10 @@ Our goal was to craft a clean, functional interface that helps users focus on ac
 | Login screen                            | Profile screen                       | 
 | --------------------------------------- | ------------------------------------- | 
 | ![Login](image/Login.png) | ![profile](image/profile.png) | ![fsdaf](./readme/demo/1440x1024.png) |
-| Live Chat                             | Education Goal                           | Order Screen                          |
-| ![Live Chat](image/LiveChat.gif) | ![Education Goal](image/EducationGoal.gif) | ![fsdaf](./readme/demo/1440x1024.png) |
+| Live Chat                             | Education Goal                           |                        |
+| ![Live Chat](image/LiveChat.gif) | ![Education Goal](image/EducationGoal.gif) |
+| Registration                             | Journals                            | 
+| ![Register](image/Register.gif) | ![Journals](image/Journals.gif) |
 
 <br><br>
 
@@ -94,6 +96,7 @@ Our goal was to craft a clean, functional interface that helps users focus on ac
 ### Accuracy in Development: Leveraging Unit Testing's Power:
 
 - Precise unit testing techniques are applied in this project to guarantee the quality and dependability of code components. We ensure a solid foundation by carefully examining each software unit, spotting and fixing any problems early on in the development cycle.
+| ![unit test](image/UnitTest.png) |
 
 <br><br>
 
