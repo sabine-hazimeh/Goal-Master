@@ -28,6 +28,7 @@
 - ML models are integrated to predict both health and education goals. The models analyze user inputs (such as health metrics or learning preferences) and suggest personalized recommendations.
 - [OpenAI](https://platform.openai.com/docs/introduction) is used to predict financial goals. Based on user inputs like income, savings, and target date, the system generates savings plans to help users meet their financial objectives.
 - [Pusher](https://pusher.com/docs/) is used to implement real-time messaging, enabling live chat functionality between users. The system supports instantaneous communication for a seamless user experience.
+- [face-api.js](https://github.com/justadudewhohacks/face-api.js) JavaScript library for face detection and emotion recognition.
 
 <br><br>
 
