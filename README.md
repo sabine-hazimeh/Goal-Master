@@ -93,6 +93,13 @@ Our goal was to craft a clean, functional interface that helps users focus on ac
 - This project utilizes machine learning techniques to personalize learning experiences by recommending courses that align with the user's educational goals and unique conditions. By analyzing the user’s health status, the system also predicts and suggests appropriate exercises. This approach enables precise and efficient recommendations, optimizing both the user’s learning progress and physical well-being.
 
 | ![ML](image/ML.png) |
+
+### Personalized Financial Planning: Leveraging AI to Achieve Your Financial Goals
+
+- This project integrates OpenAI to create personalized financial plans tailored to your specific goals and circumstances. The AI analyzes your current financial status and objectives to determine whether your goals are achievable. If your goals are within reach, the system generates a detailed plan to help you achieve them.
+
+| ![ML](image/OpenAI.png) |
+
 <br><br>
 
 <!-- AWS Deployment -->
@@ -128,7 +135,7 @@ Our goal was to craft a clean, functional interface that helps users focus on ac
   ```sh
   npm install npm@latest -g
   ```
-- npm
+- composer
   ```sh
   php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
   php composer-setup.php
