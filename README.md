@@ -101,6 +101,8 @@ Our goal was to craft a clean, functional interface that helps users focus on ac
 
 - This project utilizes cloud hosting solutions to deploy both the Laravel backend and the database infrastructure. By focusing on scalability, reliability, and seamless integration, we ensure that the application performs optimally while managing data efficiently. This setup supports diverse use cases, ensuring robust, real-time interactions and services, powered by a reliable backend and database combination.
 
+| ![apache status](image/apache.png) |
+
 <br><br>
 
 <!-- Unit Testing -->
