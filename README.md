@@ -15,6 +15,16 @@
 - As a user, I want to connect with consultants for personalized advice and guidance.
 - As a user, I want to express my emotions using facial expression recognition technology, so that my emotions are recorded.
 
+### Admin Stories
+
+- As an admin, I want to regularly review and monitor the sentiment data.
+- As an admin, I want to add a new consultant.
+- As an admin, I want to update consultant's information.
+
+### Consultant Stories
+
+- As a consultant, I want to chat with users to provide them with advice and guidance.
+
 <br><br>
 
 <!-- Tech stack -->
