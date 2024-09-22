@@ -70,6 +70,8 @@ Our goal was to craft a clean, functional interface that helps users focus on ac
 | ![Live Chat](image/LiveChat.gif) | ![Education Goal](image/EducationGoal.gif) |
 | Registration                             | Journals                            | 
 | ![Register](image/Register.gif) | ![Journals](image/Journals.gif) |
+| Profile                             | 
+| ![profile](image/profile.gif) | 
 
 <br><br>
 
