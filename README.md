@@ -92,6 +92,7 @@ Our goal was to craft a clean, functional interface that helps users focus on ac
 
 - This project utilizes machine learning techniques to personalize learning experiences by recommending courses that align with the user's educational goals and unique conditions. By analyzing the user’s health status, the system also predicts and suggests appropriate exercises. This approach enables precise and efficient recommendations, optimizing both the user’s learning progress and physical well-being.
 
+| ![ML](image/ML.png) |
 <br><br>
 
 <!-- AWS Deployment -->
